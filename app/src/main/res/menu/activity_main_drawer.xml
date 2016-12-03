@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dailyhomework"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Dailyhomework" />
+        <item
+            android:id="@+id/nav_testmarks"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Test Marks" />
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Timetable" />
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Attendance" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="About Us" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@drawable/ic_menu_share"
+                android:title="ContactUs" />
+        </menu>
+    </item>
+
+</menu>
